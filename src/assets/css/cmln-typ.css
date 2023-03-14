@@ -1,0 +1,13 @@
+body{
+    background-color: #000 !important;
+    background-image: url('../img/typ.jpg');
+    background-size: 100%;
+    background-repeat: no-repeat;
+}
+
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+    body{
+        background-size: 400%;
+    }
+}

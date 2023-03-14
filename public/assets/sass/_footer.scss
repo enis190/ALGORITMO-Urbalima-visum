@@ -1,0 +1,30 @@
+.c-footer{
+    background-color: $COLOR_1;
+    padding-top: 40px;
+    padding-bottom: 40px;
+    h1{
+        color: #FFF;
+        font-family: 'Unbounded-Light';  
+        font-size: 2.2rem;
+        span{
+            color: $COLOR_2;
+            font-family: 'Unbounded-SemiBold';  
+        }
+    }
+}
+
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {}
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) {}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
+}
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {}
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {}

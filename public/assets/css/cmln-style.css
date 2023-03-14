@@ -1,0 +1,228 @@
+p {
+  font-family: 'Unbounded-Light';
+  font-size: .9rem; }
+
+/* Extra small devices (phones, 600px and down) */
+/* Small devices (portrait tablets and large phones, 600px and up) */
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
+  .c-container {
+    padding-left: 70px !important;
+    padding-right: 70px !important; } }
+/* Large devices (laptops/desktops, 992px and up) */
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@font-face {
+  font-family: 'Unbounded-Light';
+  src: url(../fonts/Unbounded-Light.ttf); }
+@font-face {
+  font-family: 'Unbounded-SemiBold';
+  src: url(../fonts/Unbounded-SemiBold.ttf); }
+.c-header {
+  background-color: #002531;
+  color: #FCCD8C;
+  padding-top: 40px;
+  padding-bottom: 40px; }
+  .c-header .logo .logo1 {
+    float: left; }
+    .c-header .logo .logo1 img {
+      max-height: 38px;
+      margin-top: 5px; }
+  .c-header .logo .logo2 {
+    margin-left: 55px;
+    float: left; }
+    .c-header .logo .logo2 img {
+      max-height: 48px; }
+    .c-header .logo .logo2::before {
+      content: '';
+      position: absolute;
+      width: 1px;
+      height: 30px;
+      background-color: #FCCD8C;
+      margin-left: -23px;
+      margin-top: 5px; }
+  .c-header .txt ul {
+    display: inline-flex;
+    list-style: none; }
+    .c-header .txt ul li {
+      font-family: 'Unbounded-Light';
+      font-size: .9rem;
+      margin-left: 15px;
+      margin-right: 15px; }
+
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+  .c-header {
+    padding-top: 20px;
+    padding-bottom: 10px; }
+    .c-header .logo1 {
+      margin-left: 40px; }
+    .c-header .txt ul {
+      display: grid;
+      text-align: center;
+      margin-left: -20px;
+      margin-top: 30px; } }
+/* Small devices (portrait tablets and large phones, 600px and up) */
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
+  .c-header .txt {
+    text-align: right;
+    padding-top: 10px; } }
+/* Large devices (laptops/desktops, 992px and up) */
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+.c-slider .slick-prev,
+.c-slider .slick-next {
+  z-index: 1; }
+  .c-slider .slick-prev::before,
+  .c-slider .slick-next::before {
+    scale: 0.8;
+    position: absolute; }
+.c-slider .slick-prev {
+  margin-left: 30px; }
+  .c-slider .slick-prev::before {
+    content: url("../img/slick-prev.png"); }
+.c-slider .slick-next {
+  margin-right: 60px; }
+  .c-slider .slick-next::before {
+    content: url("../img/slick-next.png"); }
+.c-slider .slick-slider .item {
+  background-color: #002531;
+  height: 510px;
+  overflow: hidden;
+  display: grid !important; }
+  .c-slider .slick-slider .item img {
+    height: 100%; }
+
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+  .c-slider {
+    padding: 0px !important; }
+    .c-slider .slick-slider .item {
+      height: 210px; } }
+/* Small devices (portrait tablets and large phones, 600px and up) */
+/* Medium devices (landscape tablets, 768px and up) */
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+  .c-slider {
+    padding: 0px !important; } }
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+.c-contacto {
+  background-color: #FCCD8C; }
+  .c-contacto h2 {
+    font-family: 'Unbounded-Light';
+    font-size: 1.6rem; }
+  .c-contacto form .form-control,
+  .c-contacto form .form-select {
+    font-family: 'Unbounded-Light';
+    background-color: transparent;
+    border: 0;
+    border-bottom: 1px solid #002531;
+    border-radius: 0px;
+    font-size: .9rem;
+    padding-left: 0px;
+    padding-right: 0px; }
+    .c-contacto form .form-control:focus,
+    .c-contacto form .form-select:focus {
+      outline: none !important;
+      outline-width: 0 !important;
+      box-shadow: none;
+      -moz-box-shadow: none;
+      -webkit-box-shadow: none; }
+    .c-contacto form .form-control.c-val-false,
+    .c-contacto form .form-select.c-val-false {
+      border-bottom: 1px solid #DC3545; }
+      .c-contacto form .form-control.c-val-false::placeholder,
+      .c-contacto form .form-select.c-val-false::placeholder {
+        color: #DC3545; }
+  .c-contacto form .form-select {
+    border: 1px solid #002531;
+    padding-left: 15px;
+    padding-right: 15px; }
+    .c-contacto form .form-select option {
+      background-color: #FCCD8C; }
+  .c-contacto form .form-check-label {
+    font-family: 'Unbounded-Light';
+    font-size: .6rem; }
+  .c-contacto form .form-check-input {
+    cursor: pointer;
+    background-color: #fff;
+    background-image: url("data:image/svg+xml,%3csvg viewBox='0 0 16 16' fill='white' xmlns='http://www.w3.org/2000/svg'%3e%3cpath d='M12.207 4.793a1 1 0 010 1.414l-5 5a1 1 0 01-1.414 0l-2-2a1 1 0 011.414-1.414L6.5 9.086l4.293-4.293a1 1 0 011.414 0z'/%3e%3c/svg%3e");
+    width: 20px;
+    height: 20px;
+    appearance: none;
+    border: 2px solid #888;
+    border-radius: 0px; }
+    .c-contacto form .form-check-input:checked {
+      background-color: #002531; }
+    .c-contacto form .form-check-input:focus {
+      outline: none !important;
+      outline-width: 0 !important;
+      box-shadow: none;
+      -moz-box-shadow: none;
+      -webkit-box-shadow: none; }
+  .c-contacto form .btn-submit {
+    background-color: #002531;
+    font-family: 'Unbounded-Light';
+    color: #FFF;
+    display: inline-block;
+    width: 100%;
+    border: 1px solid #002531;
+    padding: 7px 10px;
+    transition: 0.3s; }
+    .c-contacto form .btn-submit:hover {
+      background-color: transparent;
+      color: #002531; }
+  .c-contacto form .c-rpta {
+    position: absolute;
+    font-size: .7rem; }
+
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+  .c-contacto {
+    padding: 40px 40px !important; } }
+/* Small devices (portrait tablets and large phones, 600px and up) */
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
+  .c-contacto {
+    padding: 50px 50px 30px 40px !important; } }
+/* Large devices (laptops/desktops, 992px and up) */
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+.c-footer {
+  background-color: #002531;
+  padding-top: 40px;
+  padding-bottom: 40px; }
+  .c-footer h1 {
+    color: #FFF;
+    font-family: 'Unbounded-Light';
+    font-size: 2.2rem; }
+    .c-footer h1 span {
+      color: #FCCD8C;
+      font-family: 'Unbounded-SemiBold'; }
+
+/* Extra small devices (phones, 600px and down) */
+/* Small devices (portrait tablets and large phones, 600px and up) */
+/* Medium devices (landscape tablets, 768px and up) */
+/* Large devices (laptops/desktops, 992px and up) */
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+.c-typ {
+  padding-top: 100px; }
+  .c-typ h1, .c-typ p {
+    color: #FFF;
+    font-family: 'Unbounded-Light'; }
+  .c-typ .btn-1 {
+    text-decoration: none;
+    background-color: #FCCD8C;
+    padding: 5px 15px;
+    color: #002531;
+    font-family: 'Unbounded-Light'; }
+
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+  .c-typ {
+    padding-left: 40px !important;
+    padding-right: 40px !important; } }
+/* Small devices (portrait tablets and large phones, 600px and up) */
+/* Medium devices (landscape tablets, 768px and up) */
+/* Large devices (laptops/desktops, 992px and up) */
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+
+/*# sourceMappingURL=cmln-style.css.map */
