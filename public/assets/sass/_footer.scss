@@ -13,6 +13,37 @@
     }
 }
 
+.c-prefooter{
+    padding-top: 70px;
+    padding-bottom: 70px;
+    background-image: url('../img/prefooter.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    .block1{
+        padding: 40px;
+        background-color: $COLOR_2;
+        h3{
+            font-family: 'Unbounded-SemiBold';  
+            color: $COLOR_1;
+            font-size: 1.2rem;
+        }
+        .btn{
+            background-color: $COLOR_1;
+            color: #FFF;
+            font-family: 'Unbounded-Light';  
+            border-radius: 0px;
+        }
+    }
+}
+.c-footer-2{
+    background-color: #FFF;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    p{
+        margin-bottom: 0px;
+    }
+}
+
 /* Extra small devices (phones, 600px and down) */
 @media only screen and (max-width: 600px) {}
 

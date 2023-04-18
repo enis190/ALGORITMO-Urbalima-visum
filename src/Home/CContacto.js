@@ -11,6 +11,8 @@ function CContacto() {
     apellido: '',
     telefono: '',
     email: '',
+    tipo: '',
+    politica: '',
   })
 
   const [datosvalidacion, setDatosvalidacion] = useState({
@@ -18,6 +20,8 @@ function CContacto() {
     apellido: '* El Campo es requerido',
     telefono: '* El Campo es requerido',
     email: '* El Campo es requerido',
+    tipo: '* El Campo es requerido',
+    politica: '* El Campo es requerido',
   })
 
 
@@ -42,13 +46,14 @@ function CContacto() {
 
       } else {
         setDatosvalidacion({ ...datosvalidacion, [ev.target.name]: "" })
-
       }
     }
 
-    //Validando email
+
     {
       var email = ev.target.value
+
+      //Validando email
       if (ev.target.name === 'email') {
         if (ev.target.value != '') {
           if (validator.isEmail(email)) {
@@ -57,14 +62,23 @@ function CContacto() {
             setDatosvalidacion({ ...datosvalidacion, [ev.target.name]: "* Email inválido" });
           }
         }
-
       }
+
+
+      if (ev.target.name === 'politica') {
+        if(ev.target.checked){
+          setDatosvalidacion({ ...datosvalidacion, [ev.target.name]: "" })
+        }else{
+          setDatosvalidacion({ ...datosvalidacion, [ev.target.name]: "* El Campo es requerido" })
+        }
+      }
+
     }
   }
 
 
   // Submit
-  const navigate = useNavigate(); 
+  const navigate = useNavigate();
   const sendForm = (ev) => {
     ev.preventDefault();
 
@@ -73,6 +87,8 @@ function CContacto() {
       && (datosvalidacion.apellido === "")
       && (datosvalidacion.telefono === "")
       && (datosvalidacion.email === "")
+      && (datosvalidacion.tipo === "")
+      && (datosvalidacion.politica === "")
     ) {
 
       /**Si todo esta validado */
@@ -120,19 +136,27 @@ function CContacto() {
           }
         </div>
         <div className="mb-3 mt-4">
-          <Form.Select aria-label="Default select example">
+          <Form.Select aria-label="Default select example" name='tipo' onChange={handleInputChange}>
             <option value='' hidden>Estoy interesado en</option>
             <option value="1">1 dormitorio</option>
             <option value="2">2 dormitorios</option>
             <option value="3">3 dormitorios</option>
           </Form.Select>
+          {
+            sendestado === false && <div className="form-text c-rpta text-danger">{datosvalidacion.tipo}</div>
+          }
         </div>
         <div className="mb-3 mt-4">
           <Form.Check
+            name='politica'
             type='checkbox'
             id='check'
             label='Acepto los términos y condiciones y protección de datos. '
+            onChange={handleInputChange}
           />
+          {
+            sendestado === false && <div className="form-text c-rpta text-danger">{datosvalidacion.politica}</div>
+          }
         </div>
         <div className="mt-4">
           <button type='submit' className='btn-submit'>{btncontactotxt}</button>

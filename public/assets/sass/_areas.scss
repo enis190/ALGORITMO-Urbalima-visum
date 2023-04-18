@@ -1,34 +1,37 @@
-$COLOR_1: #002531;
-$COLOR_2: #FCCD8C;
-
-p {
-    font-family: 'Unbounded-Light';
-    font-size: .9rem;
-}
-.titulo-1{
-    font-family: 'Unbounded-Light';  
-    font-size: 1.3rem;
-    span{
-        background-color: $COLOR_2;
-        padding-left: 15px;
-        padding-right: 15px;
-        display: inline-block;
-        margin-top: 10px;
+.c-area{
+    padding-top: 70px;
+    padding-bottom: 70px;
+    h3{
+        
+        color: $COLOR_2;
+        
+    }
+    p{
+        color: #FFF;
+    }
+    .items{
+        
+        .item{
+            margin-top: 40px;
+            .icon{
+                max-height: 50px;
+                margin-bottom: 15px;
+            }
+        }
     }
 }
 
 /* Extra small devices (phones, 600px and down) */
-@media only screen and (max-width: 600px) {}
+@media only screen and (max-width: 600px) {
+    
+}
 
 /* Small devices (portrait tablets and large phones, 600px and up) */
 @media only screen and (min-width: 600px) {}
 
 /* Medium devices (landscape tablets, 768px and up) */
 @media only screen and (min-width: 768px) {
-    .c-container {
-        padding-left: 70px !important;
-        padding-right: 70px !important;
-    }
+    
 }
 
 /* Large devices (laptops/desktops, 992px and up) */

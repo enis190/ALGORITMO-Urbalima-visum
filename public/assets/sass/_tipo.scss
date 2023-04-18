@@ -1,0 +1,100 @@
+.c-tipos {
+    background-color: $COLOR_1;
+
+    p {
+        color: $COLOR_2;
+    }
+
+    h4 {
+        color: $COLOR_2;
+        font-size: 1.1rem;
+        margin-bottom: 20px;
+
+        span {
+            display: block;
+            color: #FFF;
+        }
+    }
+
+    .slick-slider {
+        .item {
+            .txt {
+                padding-left: 150px;
+                padding-top: 70px;
+                padding-bottom: 70px;
+
+                .logo-tipo {
+                    max-height: 50px;
+                    margin-bottom: 20px;
+                }
+
+                ul {
+                    li {
+                        color: #FFF;
+                        font-family: 'Unbounded-Light';
+                    }
+                }
+            }
+
+            .img {
+                padding-right: 150px;
+                background-color: #DDE6E8;
+                padding-left: 70px;
+                padding-top: 70px;
+            }
+        }
+
+        .slick-prev {
+            left: 70px;
+            z-index: 1;
+        }
+
+        .slick-next {
+            right: 70px;
+            z-index: 1;
+        }
+    }
+
+}
+
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+    .c-tipos {
+        .slick-slider {
+            .item {
+                .txt{
+                padding-left: 50px;
+                padding-bottom: 20px;
+                }
+                .img{
+                    margin-bottom: 20px;
+                }
+            }
+            .slick-next{
+                right: 10px;
+            }
+            .slick-prev{
+                left: 10px;
+            }
+        }
+    }
+}
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) {}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {}
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+    .c-tipos{
+        .col-c-1{
+            padding-right: 0px;
+            padding-left: 0px;
+        }
+    }
+}
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {}

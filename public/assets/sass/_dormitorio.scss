@@ -1,0 +1,78 @@
+.c-dormitorio {
+    background-color: #FFF;
+    padding-top: 70px;
+    padding-bottom: 70px;
+
+    .slick-slider {
+        .slick-arrow {
+
+            // top: 0%;
+            // position: inherit;
+            img {
+                width: 18px;
+            }
+        }
+    }
+
+    .txt{
+        
+    }
+
+}
+
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+    .c-dormitorio{
+        .slick-next{
+            right: -20px !important;
+        }
+        .slick-prev{
+            left: -20px !important;
+        }
+        .txt{
+            margin-top: 20px;
+        }
+    }
+}
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) {}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {}
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+    .c-dormitorio{
+        .slick-slider {
+            position: relative;
+        }
+    
+        .slick-prev,
+        .slick-next {
+            position: absolute;
+            top: -40px;
+            right: 0;
+            z-index: 1;
+        }
+    
+        .slick-next {
+            left: 80px;
+        }
+    
+        .slick-prev {
+            left: 40px;
+        }
+    
+        .slick-list {
+            margin-top: 40px;
+        }
+
+        .txt{
+            margin-top: 180px;
+        }
+    }
+}
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {}

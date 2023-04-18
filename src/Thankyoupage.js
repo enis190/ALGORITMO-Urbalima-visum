@@ -13,7 +13,7 @@ function Thanyoupage() {
             <h1>Gracias <span>por contactarnos</span></h1>
             <p>Estamos trabajando en su solicitud.<br></br> A la brevedad uno de nuestros representantes se pondrá en contacto con usted.</p>
 
-            <Link to={process.env.REACT_APP_SUBDIRECTORIO + '/'} className="btn-1">Regresar</Link>
+            <Link to={process.env.REACT_APP_SUBDIRECTORIO + '/'} className="btn-1">{process.env.REACT_APP_SUBDIRECTORIO } Regresar</Link>
           </div>
         </div>
       </div>

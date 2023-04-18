@@ -2,6 +2,16 @@ p {
   font-family: 'Unbounded-Light';
   font-size: .9rem; }
 
+.titulo-1 {
+  font-family: 'Unbounded-Light';
+  font-size: 1.3rem; }
+  .titulo-1 span {
+    background-color: #FCCD8C;
+    padding-left: 15px;
+    padding-right: 15px;
+    display: inline-block;
+    margin-top: 10px; }
+
 /* Extra small devices (phones, 600px and down) */
 /* Small devices (portrait tablets and large phones, 600px and up) */
 /* Medium devices (landscape tablets, 768px and up) */
@@ -186,6 +196,212 @@ p {
     padding: 50px 50px 30px 40px !important; } }
 /* Large devices (laptops/desktops, 992px and up) */
 /* Extra large devices (large laptops and desktops, 1200px and up) */
+.c-nosotros {
+  background-color: #FFF; }
+  .c-nosotros .txt .block1 {
+    padding-top: 150px;
+    padding-bottom: 50px; }
+    .c-nosotros .txt .block1 .logo {
+      max-width: 100px;
+      margin-bottom: 40px; }
+  .c-nosotros .items {
+    padding-top: 50px;
+    padding-bottom: 50px; }
+    .c-nosotros .items .item {
+      padding-left: 20px;
+      padding-right: 20px; }
+      .c-nosotros .items .item .d-block {
+        background-color: #FCCD8C;
+        padding: 30px;
+        text-align: center;
+        min-height: 260px; }
+        .c-nosotros .items .item .d-block .icon {
+          max-height: 57px;
+          margin-bottom: 20px; }
+        .c-nosotros .items .item .d-block h3 {
+          color: #002531;
+          font-family: 'Unbounded-SemiBold';
+          font-size: 1.2rem; }
+        .c-nosotros .items .item .d-block .btn {
+          background-color: #002531;
+          color: #FFF;
+          font-family: 'Unbounded-Light';
+          border-radius: 0;
+          font-size: .9rem;
+          padding-left: 20px;
+          padding-right: 20px; }
+
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+  .c-nosotros .txt .block1 {
+    padding-top: 40px; }
+  .c-nosotros .items .slick-arrow::before {
+    color: #002531; }
+  .c-nosotros .items .slick-next {
+    right: 5px;
+    z-index: 1; }
+  .c-nosotros .items .slick-prev {
+    left: 5px;
+    z-index: 1; } }
+/* Small devices (portrait tablets and large phones, 600px and up) */
+/* Medium devices (landscape tablets, 768px and up) */
+/* Large devices (laptops/desktops, 992px and up) */
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+.c-area {
+  padding-top: 70px;
+  padding-bottom: 70px; }
+  .c-area h3 {
+    color: #FCCD8C; }
+  .c-area p {
+    color: #FFF; }
+  .c-area .items .item {
+    margin-top: 40px; }
+    .c-area .items .item .icon {
+      max-height: 50px;
+      margin-bottom: 15px; }
+
+/* Extra small devices (phones, 600px and down) */
+/* Small devices (portrait tablets and large phones, 600px and up) */
+/* Medium devices (landscape tablets, 768px and up) */
+/* Large devices (laptops/desktops, 992px and up) */
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+.c-dormitorio {
+  background-color: #FFF;
+  padding-top: 70px;
+  padding-bottom: 70px; }
+  .c-dormitorio .slick-slider .slick-arrow img {
+    width: 18px; }
+
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+  .c-dormitorio .slick-next {
+    right: -20px !important; }
+  .c-dormitorio .slick-prev {
+    left: -20px !important; }
+  .c-dormitorio .txt {
+    margin-top: 20px; } }
+/* Small devices (portrait tablets and large phones, 600px and up) */
+/* Medium devices (landscape tablets, 768px and up) */
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+  .c-dormitorio .slick-slider {
+    position: relative; }
+  .c-dormitorio .slick-prev,
+  .c-dormitorio .slick-next {
+    position: absolute;
+    top: -40px;
+    right: 0;
+    z-index: 1; }
+  .c-dormitorio .slick-next {
+    left: 80px; }
+  .c-dormitorio .slick-prev {
+    left: 40px; }
+  .c-dormitorio .slick-list {
+    margin-top: 40px; }
+  .c-dormitorio .txt {
+    margin-top: 180px; } }
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+.c-tipos {
+  background-color: #002531; }
+  .c-tipos p {
+    color: #FCCD8C; }
+  .c-tipos h4 {
+    color: #FCCD8C;
+    font-size: 1.1rem;
+    margin-bottom: 20px; }
+    .c-tipos h4 span {
+      display: block;
+      color: #FFF; }
+  .c-tipos .slick-slider .item .txt {
+    padding-left: 150px;
+    padding-top: 70px;
+    padding-bottom: 70px; }
+    .c-tipos .slick-slider .item .txt .logo-tipo {
+      max-height: 50px;
+      margin-bottom: 20px; }
+    .c-tipos .slick-slider .item .txt ul li {
+      color: #FFF;
+      font-family: 'Unbounded-Light'; }
+  .c-tipos .slick-slider .item .img {
+    padding-right: 150px;
+    background-color: #DDE6E8;
+    padding-left: 70px;
+    padding-top: 70px; }
+  .c-tipos .slick-slider .slick-prev {
+    left: 70px;
+    z-index: 1; }
+  .c-tipos .slick-slider .slick-next {
+    right: 70px;
+    z-index: 1; }
+
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+  .c-tipos .slick-slider .item .txt {
+    padding-left: 50px;
+    padding-bottom: 20px; }
+  .c-tipos .slick-slider .item .img {
+    margin-bottom: 20px; }
+  .c-tipos .slick-slider .slick-next {
+    right: 10px; }
+  .c-tipos .slick-slider .slick-prev {
+    left: 10px; } }
+/* Small devices (portrait tablets and large phones, 600px and up) */
+/* Medium devices (landscape tablets, 768px and up) */
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+  .c-tipos .col-c-1 {
+    padding-right: 0px;
+    padding-left: 0px; } }
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+.c-galeria {
+  background-color: #FFF;
+  padding-top: 70px;
+  padding-bottom: 70px; }
+  .c-galeria h3 span {
+    margin-bottom: 10px; }
+  .c-galeria .slick-slider .slick-arrow img {
+    width: 18px; }
+
+/* Extra small devices (phones, 600px and down) */
+/* Small devices (portrait tablets and large phones, 600px and up) */
+/* Medium devices (landscape tablets, 768px and up) */
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+  .c-galeria .slick-slider {
+    position: relative; }
+  .c-galeria .slick-prev,
+  .c-galeria .slick-next {
+    position: absolute;
+    top: -40px;
+    right: 0;
+    z-index: 1; }
+  .c-galeria .slick-next {
+    left: 80px; }
+  .c-galeria .slick-prev {
+    left: 40px; }
+  .c-galeria .slick-list {
+    margin-top: 40px; }
+  .c-galeria .txt {
+    margin-top: 180px; } }
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+.c-mapa {
+  background-color: #FFF;
+  padding-top: 70px;
+  padding-bottom: 70px; }
+  .c-mapa .slick-slider {
+    margin-top: 40px; }
+    .c-mapa .slick-slider .item .icon {
+      margin-bottom: 15px; }
+  .c-mapa .iframe iframe {
+    margin-top: 60px;
+    width: 100%;
+    height: 350px; }
+
+/* Extra small devices (phones, 600px and down) */
+/* Small devices (portrait tablets and large phones, 600px and up) */
+/* Medium devices (landscape tablets, 768px and up) */
+/* Large devices (laptops/desktops, 992px and up) */
+/* Extra large devices (large laptops and desktops, 1200px and up) */
 .c-footer {
   background-color: #002531;
   padding-top: 40px;
@@ -197,6 +413,32 @@ p {
     .c-footer h1 span {
       color: #FCCD8C;
       font-family: 'Unbounded-SemiBold'; }
+
+.c-prefooter {
+  padding-top: 70px;
+  padding-bottom: 70px;
+  background-image: url("../img/prefooter.jpg");
+  background-size: cover;
+  background-repeat: no-repeat; }
+  .c-prefooter .block1 {
+    padding: 40px;
+    background-color: #FCCD8C; }
+    .c-prefooter .block1 h3 {
+      font-family: 'Unbounded-SemiBold';
+      color: #002531;
+      font-size: 1.2rem; }
+    .c-prefooter .block1 .btn {
+      background-color: #002531;
+      color: #FFF;
+      font-family: 'Unbounded-Light';
+      border-radius: 0px; }
+
+.c-footer-2 {
+  background-color: #FFF;
+  padding-top: 20px;
+  padding-bottom: 20px; }
+  .c-footer-2 p {
+    margin-bottom: 0px; }
 
 /* Extra small devices (phones, 600px and down) */
 /* Small devices (portrait tablets and large phones, 600px and up) */
